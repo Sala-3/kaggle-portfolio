@@ -1,0 +1,42 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Kaggle credentials
+kaggle.json
+
+# Data files
+data/
+*.csv
+*.parquet
+*.zip
+
+# Model artifacts
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# OS
+.DS_Store
+Thumbs.db
+!competitions/**/reports/experiments.csv
